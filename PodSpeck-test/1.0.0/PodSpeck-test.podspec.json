@@ -13,8 +13,6 @@
     "PodSpeck-test.framework/*"
   ],
   "ios": {
-    "public_header_files": "./PodSpeck-test.framework/Headers/*.h",
-    "vendored_frameworks": "./PodSpeck-test.framework",
     "frameworks": [
       "CoreLocation",
       "MapKit",
@@ -31,4 +29,3 @@
   "summary": "Triber SDK for Triber",
   "version": "1.0.0"
 }
-
