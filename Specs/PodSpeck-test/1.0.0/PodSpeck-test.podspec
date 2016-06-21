@@ -1,25 +1,20 @@
 {
-  "authors": "Twitter",
-  "homepage": "https://fabric.io",
+  "authors": "Boossol",
+  "homepage": "https://events.triberapp.co",
   "license": {
-    "text": "Fabric: Copyright 2015 Twitter, Inc. All Rights Reserved. Use of this software is subject to the terms and conditions of the Fabric Software and Services Agreement located at https://fabric.io/terms. OSS: http://get.fabric.io/terms/opensource.txt",
+    "text": "See http://triberapp.co/terms-of-service",
     "type": "Commercial"
   },
-  "name": "Fabric",
+  "name": "PodSpeck-test",
   "platforms": {
-    "ios": "6.0",
-    "osx": "10.7",
-    "tvos": "9.0"
+    "ios": "7.0",
   },
   "preserve_paths": [
-    "uploadDSYM",
-    "run",
-    "upload-symbols",
-    "Fabric.framework/*"
+    "PodSpeck-test.framework/*"
   ],
   "ios": {
-    "public_header_files": "iOS/Fabric.framework/Headers/*.h",
-    "vendored_frameworks": "iOS/Fabric.framework",
+    "public_header_files": "./PodSpeck-test.framework/Headers/*.h",
+    "vendored_frameworks": "./PodSpeck-test.framework",
     "frameworks": [
       'CoreLocation',
       'MapKit',
@@ -31,8 +26,8 @@
   },
   "requires_arc": true,
   "source": {
-    "http": "https://kit-downloads.fabric.io/cocoapods/fabric/1.6.7/fabric.zip"
+    "http": "http://127.0.0.1:8080/PodSpeck-test.framework.zip"
   },
-  "summary": "Fabric by Twitter, Inc.",
-  "version": "1.6.7"
+  "summary": "Triber SDK for Triber",
+  "version": "1.0.0"
 }
