@@ -1,0 +1,34 @@
+{
+  "authors": "Boossol",
+  "homepage": "https://events.triberapp.co",
+  "license": {
+    "text": "See http://triberapp.co/terms-of-service",
+    "type": "Commercial"
+  },
+  "name": "PodSpeck-test",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "preserve_paths": [
+    "PodSpeck-test.framework/*"
+  ],
+  "ios": {
+    "public_header_files": "./PodSpeck-test.framework/Headers/*.h",
+    "vendored_frameworks": "./PodSpeck-test.framework",
+    "frameworks": [
+      "CoreLocation",
+      "MapKit",
+      "SystemConfiguration",
+      "MobileCoreServices",
+      "ImageIO",
+      "AudioToolbox"
+    ]
+  },
+  "requires_arc": true,
+  "source": {
+    "http": "http://127.0.0.1:8080/PodSpeck-test.framework.zip"
+  },
+  "summary": "Triber SDK for Triber",
+  "version": "1.0.0"
+}
+
